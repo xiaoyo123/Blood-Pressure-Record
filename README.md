@@ -11,7 +11,7 @@
 
 ## UI
 
-![image](image/Ui.png)
+![image](image/UI.png)
 
 ## Build
 
