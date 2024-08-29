@@ -20,6 +20,6 @@ interface RecordDao {
     @Query("SELECT * from record WHERE id = :id")
     fun getRecord(id: Int): Record
 
-    @Query("SELECT * from record ORDER BY id ASC")
+    @Query("SELECT * from record ORDER BY id DESC")
     fun getAllRecord(): LiveData<List<Record>>
 }
